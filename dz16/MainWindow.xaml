@@ -1,0 +1,15 @@
+﻿<Window x:Class="dz16.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dz16"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Style="{DynamicResource WindowStyle}">
+    <StackPanel>
+        <ComboBox x:Name="Thems" Width="129" HorizontalAlignment="Right" SelectionChanged="Thems_SelectionChanged"/>
+        <Button Content="Что то там" Style="{DynamicResource ButtonStyle}"  Width="120" Height="32"/>
+        <TextBlock Text="Пример" Style="{DynamicResource TextBStyle}" HorizontalAlignment="Center"  Width="169" TextAlignment="Center" Margin="0,10,0,0"/>
+
+    </StackPanel>
+</Window>
